@@ -59,33 +59,86 @@ p.headertext{
   margin:15px;
   padding:10px;
 }
+
 #contactsection{
-  background-color:red;
-  height:40%;
+  /*background-color:red;*/
 }
 
+#consection{
+  display:flex;
+  flex-direction: row;
+  /*background-color:#aaaa55;*/
+}
 
+/*.contactheading1{
+  margin:0px 0px 0px 40px;
+  color:white;
+  font-size:3.5em;
+}*/
+.contactheading2{
+  padding-top:2%;
+  margin:0px 0px 0px 40px;
+  color:white;
+  font-size:2em;
+  font-family: 'Acme', sans-serif;
+}
+#contactsection1{
+  /*background-color:#b8b894;*/
+  color:white;
+  font-size: 1.5em;
+  margin-left:25px;
+  padding:15px;
+  width:15%;
+  font-family: 'Acme', sans-serif;
 
+}
+#contactsection2{
+  width:25%;
+  /*background-color:blue;*/
+  color:white;
+  margin-top:0.6%;
+  margin-left:0%;
+  padding:15px;
+  font-family: 'Acme', sans-serif;
+}
+#contactsection3{
+  padding-top:0px;
+  width:35%;
+  margin-left:15%;
+  /*background-color:maroon;*/
+  color:white;
+}
+.git{
+  color:white;
+  font-size:2em;
+  margin-left:10px;
+  margin-top:5px;
+  font-family: 'Acme', sans-serif;
+}
+.gitcall{
+  margin-left:10px;
+  font-size:1.5em;
+  font-family: 'Acme', sans-serif;
+}
+.map{
+  color:white;
+  font-size:1.5em;
+  margin-top:0px;
+  margin-left:10px;
+  font-family: 'Acme', sans-serif;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+iframe{
+  width:400px;
+  height:200px;
+  frameborder:0px;
+  border:0;
+  
+}
 footer{
   /*background-color: #802000;*/
   display:flex;
-  padding-top:4%;
+  padding-top:2%;
   justify-content: space-between;
 }
 

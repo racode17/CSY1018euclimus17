@@ -60,6 +60,10 @@ p.headertext{
   padding:10px;
 }
 #biosection{
+  padding-top:2%;
+  padding:auto;
+  margin-bottom:auto;
+  padding-bottom: 10%;
   /*background-color:red;*/
 }
 p.biotext{
@@ -68,7 +72,7 @@ p.biotext{
   font-style: normal;
   text-align: justify;
   margin:0px;
-  margin-bottom: 0px;
+  margin-right:2px;
   padding:25px;
   font-family: 'Handlee', cursive;
 }
@@ -77,7 +81,7 @@ p.biotext img{
   transition: transform 5s;
   height:530px;
   width:400px;
-  align:left;
+  float:left;
   margin-right: 10px;
   margin-bottom:10px;
   margin-top:0px;
@@ -88,6 +92,8 @@ p.biotext img{
 p.biotext img:hover{transform: rotateY(360deg);
 }
 footer{
+  margin:auto;
+  padding:auto;
   /*background-color: #802000;*/
   display:flex;
   padding-top:2%;
@@ -97,7 +103,7 @@ footer{
 #calldiv{
   /*background:lightgreen;*/
   display:flex;
-  padding:4%;
+  padding:0%;
   justify-content: space-around;
   width:20%;
 }
@@ -121,7 +127,7 @@ footer{
 #contactdiv{
   /*background:blue;*/
   display:flex;
-  padding: 4%;
+  padding: 0%;
   justify-content: space-around;
   width:22%;
   margin-top:0px;
@@ -147,7 +153,7 @@ footer{
 #followmediv{
   /*background:skyblue;*/
   display:flex;
-  padding-top:4%;
+  padding-top:0%;
   justify-content: space-around;
   width:28%;
 }
@@ -193,7 +199,7 @@ footer{
 #copyrightdiv{
   /*background:#9900cc;*/
   display:flex;
-  padding:4%;
+  padding:0%;
   justify-content: space-around;
   width:22%;
 }
