@@ -60,24 +60,173 @@ p.headertext{
   padding:10px;
 }
 #cvsection{
-  background-color:#a3c2c2;
-  height:40%;
+  padding-top:2%;
+  margin-top:20px;
+  /*background-color:yellow;*/
+}
+#cvsecforflex1{
+  display: flex;
+  flex-direction: row;
+  /*background-color:red;*/
+}
+#cvsection1{
+  width:50%;
+  /*background-color:orange;*/
+}
+#cvsection1 img{
+  padding:1%;
+  padding-left:10%;
+  height:400px;
+  width:400px;
+  
+}
+#cvsection2{
+  padding-left:7.5%;
+  margin-right:20px;
+  width:50%;
+  /*background-color: silver;*/
+}
+p.aboutpara{
+  /*background-color: red;*/
+  font-size: 2em;
+  color:white;
+  margin-left:1%;
+  margin-top:0%;
+  font-family: 'Baumans', cursive;
+}
+p.otherinfo{
+  font-family: 'Aladin', cursive;
+  /*background-color: green;*/
+  padding-top:0px;
+  font-size:1.5em;
+  color:white;
+  margin-left:1%;
+  letter-spacing: 0.1em;
+  line-height:34px;
+
+}
+#cvsecforflex2{
+  display: flex;
+  flex-direction: row;
+  /*background-color:yellow;*/
+}
+#cvedu{
+  /*background-color:brown;*/
+  width:50%;
+}
+p.edu{
+  font-family: 'Baumans', cursive;
+  margin-top:2%;
+  /*background-color: blue;*/
+  font-size: 2em;
+  color:white;
+  text-align: justify;
+  padding-left:7.5%;
+
+}
+p.edudetails{
+  font-family: 'Kurale', serif;
+  font-size: 1.5em;
+  text-align: justify;
+  color:white;
+  padding-left:7.5%;
+  margin-right:20px;
+}
+#cvcoursework{
+  /*background-color:purple;*/
+  width:50%;
+}
+p.coursedetail1{
+  font-family: 'Baumans', cursive;
+  margin-top:2%;
+  /*background-color:red;*/
+  font-size: 2em;
+  color:white;
+  text-align: justify;
+  padding-left:7.5%;
+
+}
+p.coursedetail2{
+  font-family: 'Kurale', serif;
+  font-size: 1.5em;
+  text-align: justify;
+  color:white;
+  padding-left:7.5%;
+  margin-right:20px;
+
+
+}
+#cvsecforflex3{
+  display: flex;
+  flex-direction: row;
+  /*background-color:red;*/
+}
+#cvexperience{
+  width:50%;
+  /*background-color: lightgreen;*/
+}
+p.profexperience{
+  font-family: 'Baumans', cursive;
+  /*background-color: yellow;*/
+  padding-left:7.5%;
+  margin-top:2%;
+  font-size: 2em;
+  color:white;
+}
+p.profexpdef{
+  font-family: 'Kurale', serif;
+  /*background-color: red;*/
+  font-size: 1.5em;
+  text-align: justify;
+  color:white;
+  padding-left:7.5%;
+  margin-right:20px;
+}
+#cvskills{
+  /*background-color: green;*/
+  width:50%;
 }
 
+p.skills1{
+  font-family: 'Baumans', cursive;
+  /*background-color:#f2d091;*/
+  padding-left:7.5%;
+  margin-top:2%;
+  font-size: 2em;
+  color:white;
+}
+p.skills2{
+  font-family: 'Kurale', serif;
+  /*background-color:#e0626d;*/
+  font-size: 1.5em;
+  text-align: justify;
+  color:white;
+  padding-left:7.5%;
+  margin-right:20px;
+}
+#width1{
+  background-color:white;
+  height:5%;
+  width:50%;
+  text-align: right;
+  margin-left:50px;
+}
+#width2{
+  background-color:white;
+  height:5%;
+  width:45%;
+  text-align: right;
 
+  margin-left:50px;
+}
+#width3{
+  background-color:white;
+  height:5%;
+  width:40%;
+  text-align: right;
 
-
-
-
-
-
-
-
-
-
-
-
-
+  margin-left:50px;
+}
 
 
 

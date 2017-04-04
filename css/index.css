@@ -63,6 +63,7 @@ p.headertext{
 
 
 #firstimage{
+  padding-top:2%;
   /*background-image: url("../images/img1.jpg");*/
   background-position: top left;
   margin-top:0px;
