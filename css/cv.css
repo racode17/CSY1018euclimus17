@@ -8,6 +8,13 @@
   flex-direction: row;
   /*background-color:red;*/
 }
+@media(max-width:800px){
+  #cvsecforflex1{
+  display: flex;
+  flex-direction: column;
+  margin-left:17%;
+}
+}
 #cvsection1{
   width:50%;
   /*background-color:orange;*/
@@ -15,7 +22,7 @@
 #cvsection1 img{
   padding:1%;
   padding-left:10%;
-  height:400px;
+  height:400px;z
   width:400px;
 
 }
@@ -47,7 +54,15 @@ p.otherinfo{
 #cvsecforflex2{
   display: flex;
   flex-direction: row;
-  /*background-color:yellow;*/
+  /*background-color:orange;*/
+}
+@media(max-width:800px){
+  #cvsecforflex2{
+    display:flex;
+    flex-direction:column;
+    /*background-color:purple;*/
+    margin-left:17%;
+  }
 }
 #cvedu{
   /*background-color:brown;*/
@@ -97,6 +112,14 @@ p.coursedetail2{
   display: flex;
   flex-direction: row;
   /*background-color:red;*/
+}
+@media(max-width:800px){
+  #cvsecforflex3{
+    display:flex;
+    flex-direction: column;
+    margin-left:17%;
+
+  }
 }
 #cvexperience{
   width:50%;
