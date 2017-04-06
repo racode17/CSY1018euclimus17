@@ -12,7 +12,13 @@
   #cvsecforflex1{
   display: flex;
   flex-direction: column;
-  margin-left:17%;
+  justify-content: space-around;
+  /*background-color:lightgreen;*/
+  width:100%;
+}
+#cvsection2{
+  /*background-color:red;*/
+  width:100%;
 }
 }
 #cvsection1{
@@ -24,13 +30,27 @@
   padding-left:10%;
   height:400px;z
   width:400px;
-
+}
+@media(max-width:850px){
+  #cvsection1 img{
+    padding-left:30%;
+  }
 }
 #cvsection2{
   padding-left:7.5%;
   margin-right:20px;
   width:50%;
   /*background-color: silver;*/
+}
+@media(max-width:850px){
+  #cvsection2{
+    width:100%;
+  }
+}
+@media(max-width:850px){
+  p.aboutpara{
+    padding-top: 5%;
+  }
 }
 p.aboutpara{
   /*background-color: red;*/
@@ -56,17 +76,22 @@ p.otherinfo{
   flex-direction: row;
   /*background-color:orange;*/
 }
-@media(max-width:800px){
+@media(max-width:850px){
   #cvsecforflex2{
     display:flex;
     flex-direction:column;
     /*background-color:purple;*/
-    margin-left:17%;
+
   }
 }
 #cvedu{
   /*background-color:brown;*/
   width:50%;
+}
+@media(max-width:850px){
+  #cvedu{
+    width:100%;
+  }
 }
 p.edu{
   font-family: 'Baumans', cursive;
@@ -89,6 +114,11 @@ p.edudetails{
 #cvcoursework{
   /*background-color:purple;*/
   width:50%;
+}
+@media(max-width:850px){
+  #cvcoursework{
+    width:100%;
+  }
 }
 p.coursedetail1{
   font-family: 'Baumans', cursive;
@@ -113,17 +143,20 @@ p.coursedetail2{
   flex-direction: row;
   /*background-color:red;*/
 }
-@media(max-width:800px){
+@media(max-width:850px){
   #cvsecforflex3{
     display:flex;
     flex-direction: column;
-    margin-left:17%;
-
   }
 }
 #cvexperience{
   width:50%;
   /*background-color: lightgreen;*/
+}
+@media(max-width:850px){
+  #cvexperience{
+    width:100%;
+  }
 }
 p.profexperience{
   font-family: 'Baumans', cursive;
@@ -146,7 +179,11 @@ p.profexpdef{
   /*background-color: green;*/
   width:50%;
 }
-
+@media(max-width:850px){
+  #cvskills{
+    width:100%;
+  }
+}
 p.skills1{
   font-family: 'Baumans', cursive;
   /*background-color:#f2d091;*/

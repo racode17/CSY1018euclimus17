@@ -3,13 +3,25 @@
   padding-top:2%;
   /*background-color:red;*/
 }
-
-#consection{
+#contactsection00{
+  /*background-color: pink;*/
   display:flex;
   flex-direction: row;
-  /*background-color:#aaaa55;*/
 }
-
+#contactsection0{
+  /*background-color: brown;*/
+  display:flex;
+  flex-direction: row;
+  width:100%;
+}
+#contactsection3{
+  /*background-color: orange;*/
+}
+@media(max-width:900px){
+  #contactsection00{display:flex;
+  flex-direction:column;
+}
+}
 /*.contactheading1{
   margin:0px 0px 0px 40px;
   color:white;
@@ -23,17 +35,17 @@
   font-family: 'Acme', sans-serif;
 }
 #contactsection1{
-  /*background-color:#b8b894;*/
+  /*background-color:silver;*/
   color:white;
   font-size: 1.5em;
   margin-left:25px;
   padding:15px;
-  width:15%;
+  width:50%;
   font-family: 'Acme', sans-serif;
 
 }
 #contactsection2{
-  width:25%;
+  width:50%;
   /*background-color:blue;*/
   color:white;
   margin-top:0.6%;
@@ -43,10 +55,16 @@
 }
 #contactsection3{
   padding-top:0px;
-  width:35%;
+  width:75%;
   margin-left:15%;
-  /*background-color:maroon;*/
+  /*background-color:orange;*/
   color:white;
+}
+@media(max-width:850px){
+  #contactsection3{
+    /*background-color: red;*/
+    margin-left:6.5%;
+  }
 }
 .git{
   color:white;
@@ -54,11 +72,14 @@
   margin-left:10px;
   margin-top:5px;
   font-family: 'Acme', sans-serif;
+  /*background-color:red;*/
 }
 .gitcall{
+  margin-top:0%;
   margin-left:10px;
   font-size:1.5em;
   font-family: 'Acme', sans-serif;
+  /*background-color: yellow;*/
 }
 .map{
   color:white;
@@ -69,7 +90,7 @@
 
 }
 iframe{
-  width:400px;
+  /*width:350px;*/
   height:200px;
   frameborder:0px;
   border:0;
