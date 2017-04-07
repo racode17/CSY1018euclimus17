@@ -1,3 +1,4 @@
+/*DHUNGANA SUBASH UN-ID:17421479*/
 #biosection{
   padding-top:2%;
   padding:auto;
@@ -5,6 +6,7 @@
   padding-bottom: 10%;
   /*background-color:red;*/
 }
+/*a short biography of Dhungana Subash*/
 p.biotext{
   color: white;
   font-size: 1.5em;
@@ -15,7 +17,7 @@ p.biotext{
   padding:25px;
   font-family: 'Handlee', cursive;
 }
-
+/*image of Dhungana Subash*/
 p.biotext img{
   transition: transform 5s;
   height:530px;
@@ -28,5 +30,6 @@ p.biotext img{
   border: 3px solid white;
   /*position:relative;*/
 }
+/*css when the image is hovered*/
 p.biotext img:hover{transform: rotateY(360deg);
 }

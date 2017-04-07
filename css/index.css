@@ -1,14 +1,18 @@
+/*DHUNGANA SUBASH UN-ID:17421479*/
+/*css for body*/
 body{
   /*background-color:#ffd699;*/
-  background-image: url("../images/img1.jpg");
+  background-image: url("../images/img1.jpg");/* path for background image*/
   background-repeat:repeat;
 }
+/*positioning proprties for hello text*/
 #head1{
   /*background-color: red;*/
   padding:0px;
   margin:0px;
   /*background-color: blue;*/
 }
+/* css for hello text*/
 p.headertext01{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -19,17 +23,19 @@ p.headertext01{
   font-family: 'Lobster Two', cursive;
   /*background-color: silver;*/
 }
-
+/* css for naviagation menu bar*/
 #menubar{
   /*background-color: purple;*/
   display:flex;
   flex-direction:row;
   justify-content: space-around;
 }
+/*css for 1st div designed to display as flexbox later */
 #a1forflex{
   list-style: none;
   /*background-color: red;*/
   }
+/* css for anchor/link of homepage*/
 #a1forflex a{
   border-radius: 50px;
   background: linear-gradient(to bottom, #7575a3,  #ff6600);
@@ -41,13 +47,16 @@ p.headertext01{
   font-family: 'Righteous', cursive;
   color:white;
 }
+/* css for anchor/link of homepage when it is hovered or pointed*/
 #a1forflex a:hover{
 background: radial-gradient(yellow,red,pink);
 }
+/*css for 2nd div designed to define using flex property later */
 #a2forflex{
   /*background-color: yellow;*/
   list-style: none;
 }
+/* css for anchor/link of biopage*/
 #a2forflex a{
   border-radius: 50px;
   background: linear-gradient(to bottom, #7575a3,  #ff6600);
@@ -59,6 +68,7 @@ background: radial-gradient(yellow,red,pink);
   font-family: 'Righteous', cursive;
   color:white;
 }
+/* css for anchor/link of biopage when it is hovered or pointed*/
 #a2forflex a:hover{
 background: radial-gradient(yellow,red,pink);
 }
@@ -80,6 +90,7 @@ background: radial-gradient(yellow,red,pink);
 #a3forflex a:hover{
 background: radial-gradient(yellow,red,pink);
 }
+/*css for 2nd div designed to define link of contactpage using flex property later */
 #a4forflex{
   /*background-color:green;*/
   list-style: none;
@@ -98,6 +109,7 @@ background: radial-gradient(yellow,red,pink);
 #a4forflex a:hover{
 background: radial-gradient(yellow,red,pink);
 }
+/*css to make menubar responsive*/
 @media (max-width:850px) {
   #menubar{
   margin:auto;
@@ -106,6 +118,7 @@ background: radial-gradient(yellow,red,pink);
   /*background-color: red;*/
   }
 }
+/*css to define css of divs when screen width is decreased to its maximum value*/
 @media (max-width:850px) {
   #a1forflex{
   margin-bottom:20px;
@@ -120,7 +133,7 @@ background: radial-gradient(yellow,red,pink);
   margin-bottom:20px;
 }
 }
-
+/*css to define the properties of imagediv of Dhungana Subash */
 #firstimage{
   padding-top:4%;
   /*background-image: url("../images/img1.jpg");*/
@@ -128,7 +141,7 @@ background: radial-gradient(yellow,red,pink);
   margin-top:0px;
   background-repeat:repeat;
 }
-
+/*css to define the properties of image of Dhungana Subash */
 #firstimage img{
   margin: auto;
   display: block;
@@ -138,13 +151,13 @@ background: radial-gradient(yellow,red,pink);
   border: 4px solid #ff9933;
   border-radius: 100%;
 }
-
+/*css to define the properties of imagediv os Dhungana Subash when hovered */
 #firstimage img:hover{
   transform:scale(0.5,0.5);
   border: 4px solid #ff9933;
   border-radius: 200px;
 }
-
+/*css to define the properties of text displayed below the picture of Dhungana Subash */
 p.text1{
   font-size: 4em;
   text-align:center;
@@ -152,6 +165,7 @@ p.text1{
   font-family: 'Bree Serif', serif;
   color:white;
 }
+/*css to define the properties of text below my name*/
 p.text2{
   font-size: 2em;
   text-align: center;
@@ -162,12 +176,14 @@ p.text2{
 /*#menubar{
   background-color: skyblue;
 }*/
+/*css to define the footer contents of the page*/
 footer{
   /*background-color: #802000;*/
   display:flex;
   padding-top:4%;
   justify-content: space-between;
 }
+/*css to make footer content responsive*/
 @media(max-width:850px) {
   footer{
   margin-left:15%;
@@ -176,6 +192,7 @@ footer{
   /*padding-left:25%;*/
 }
 }
+/*css to define the call div*/
 #calldiv{
   /*background:lightgreen;*/
   display:flex;
