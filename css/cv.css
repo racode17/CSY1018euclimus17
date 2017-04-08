@@ -29,12 +29,14 @@
 #cvsection1 img{
   padding:1%;
   padding-left:10%;
-  height:400px;z
+  height:400px;
   width:400px;
 }
 @media(max-width:850px){
   #cvsection1 img{
     padding-left:30%;
+    width:300px;
+    height:300px;
   }
 }
 #cvsection2{
